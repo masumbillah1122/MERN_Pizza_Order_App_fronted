@@ -1,0 +1,83 @@
+.or-container .or-row:first-child .or-col {
+    margin: 50px 0;
+}
+
+.or-title {
+    text-align: center;
+    letter-spacing: 1.3px;
+}
+
+.or-cards {
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.or-card {
+    width: 250px;
+    height: auto;
+    box-shadow: 0 0 10px #111111;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.or-header {
+    text-align: center;
+    margin-bottom: 20px;
+    min-height: 150px;
+}
+
+.or-items {
+    margin-bottom: 10px;
+}
+
+.or-varient {
+    border-radius: 5px;
+    background-color: #2c3e50;
+    color: #ffffff;
+    padding: 2px 5px;
+    letter-spacing: 1.3px;
+}
+
+.or-body {
+    min-height: 100px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.or-footer {
+    min-height: 100px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.or-footer p {
+    margin-bottom: 5px;
+}
+
+.or-date-title {
+    margin-top: 20px;
+}
+
+.or-date,
+.or-amount {
+    font-size: 20px;
+    background-color: #2c3e50;
+    color: #ffffff;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+
+.or-address {
+    margin-bottom: 5px;
+}
+
+.or-address-span {
+    background-color: #2c3e50;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 2px 5px;
+    border-radius: 5px;
+    letter-spacing: 1.3px;
+}

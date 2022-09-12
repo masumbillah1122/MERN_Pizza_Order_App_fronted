@@ -1,0 +1,44 @@
+.n-navbar {
+    width: 100%;
+    height: 70px;
+    box-shadow: 0px 15px 10px -15px #111111;
+}
+
+.n-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0 25px;
+}
+
+.n-col a {
+    text-decoration: none;
+    color: #111111;
+}
+
+.n-col:first-child a {
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.n-col:last-child a {
+    margin: 0 10px;
+    position: relative;
+}
+
+.n-col:last-child a:hover {
+    text-decoration: underline;
+}
+
+.n-col:last-child a .badge {
+    position: absolute;
+    top: -10px;
+    right: -15px;
+    padding: 2px;
+    border-radius: 50%;
+    background-color: #111111;
+    color: #ffffff;
+    font-weight: bold;
+}

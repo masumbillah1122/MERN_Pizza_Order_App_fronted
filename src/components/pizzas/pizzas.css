@@ -1,0 +1,19 @@
+.ps-container {
+    padding: 100px 25px;
+}
+
+.ps-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.loading {
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.error {
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
